@@ -21,8 +21,6 @@ public class MiPrimeraAplicacionApplication {
 	public ServiceCity getServiceCity(){
 
 		ServiceCity ci = new ServiceCityImp();
-		ci.addCity("Jaen", 490);
-		ci.addCity("Sevilla", 800);
 		return ci;
 	}
 }
