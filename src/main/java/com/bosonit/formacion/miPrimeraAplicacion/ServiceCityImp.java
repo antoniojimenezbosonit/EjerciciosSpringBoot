@@ -11,8 +11,8 @@ import java.util.List;
 public class ServiceCityImp implements ServiceCity {
 
     List<City> cityList = new ArrayList<>();
-
     City c = new City();
+
     @Override
     public City addCity(String name, Integer numberOfInhabitants) {
 

@@ -7,8 +7,6 @@ public class ServicePersonaImp implements ServicePerson {
 
     Person p = new Person();
 
-
-
     public Person createPerson(String name, Integer age, String poblation){
 
         p.setName(name);

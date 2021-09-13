@@ -14,6 +14,8 @@ public class Controlador2 {
     @Autowired
     ServicePerson sp;
 
+    @Autowired
+    ServiceCity ci;
 
     @GetMapping("controlador2/getPersona")
     public String getPersona(){
