@@ -1,15 +1,15 @@
 package com.bosonit.formacion.miPrimeraAplicacion;
 
-public class Persona {
+public class Person {
 
     String Name;
     Integer Age;
     String Poblation;
 
-    public Persona() {
+    public Person() {
     }
 
-    public Persona(String name, Integer age, String poblation) {
+    public Person(String name, Integer age, String poblation) {
         Name = name;
         Age = age;
         Poblation = poblation;

@@ -21,8 +21,8 @@ public class MiControlador {
     }
 
     @PostMapping("/userAdd")
-    public Persona getPersona(@RequestBody Persona p){
-        Persona persona = new Persona();
+    public Person getPersona(@RequestBody Person p){
+        Person persona = new Person();
         persona.setName(p.getName());
         persona.setAge(p.getAge()+1);
         persona.setPoblation(p.getPoblation());
