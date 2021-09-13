@@ -1,6 +1,7 @@
 package com.bosonit.formacion.miPrimeraAplicacion;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +13,7 @@ public class Controlador1{
     ServicePerson sp;
 
     @Autowired
+    @Qualifier("controlador1")
     ServiceCity ci;
 
     @GetMapping("controlador1/addPerson/{name}/{poblation}/{age}")
