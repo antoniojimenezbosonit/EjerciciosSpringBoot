@@ -2,10 +2,8 @@ package com.bosonit.formacion.miPrimeraAplicacion;
 
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
-public class ServicePersona implements ServicePersonInterface{
+public class ServicePersonaImp implements ServicePerson {
 
     Person p = new Person();
 

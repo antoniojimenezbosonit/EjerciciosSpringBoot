@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class Controlador1{
 
     @Autowired
-    ServicePersonInterface sp;
+    ServicePerson sp;
 
     @GetMapping("controlador1/addPerson/{name}/{poblation}/{age}")
     public Person createPerson1(@PathVariable String name, @PathVariable String poblation, @PathVariable Integer age){

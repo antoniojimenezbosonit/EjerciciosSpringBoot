@@ -15,16 +15,14 @@ public class MiPrimeraAplicacionApplication {
 		SpringApplication.run(MiPrimeraAplicacionApplication.class, args);
 	}
 
-
-	//esto si lo creo como servicio al inicializar lo tengo
-	/*@Bean
-	public CiudadInterface getCiudadInterface(){
-		List<Ciudad> lista = new ArrayList<>();
-		Ciudad c1 = new Ciudad("Jaen", 300);
-		Ciudad c2 = new Ciudad("Sevilla", 3000);
-		lista.add(c1);
-		lista.add(c2);
-		CiudadInterface ci = new CiudadInterfaceImp(lista);
+	@Bean
+	public ServiceCity getServiceCity(){
+		List<City> list = new ArrayList<>();
+		City c1 = new City("Jaen", 300);
+		City c2 = new City("Sevilla", 3000);
+		list.add(c1);
+		list.add(c2);
+		ServiceCity ci = new ServiceCityImp();
 		return ci;
-	}*/
+	}
 }
